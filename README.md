@@ -7,12 +7,13 @@ Given a string of flights to different cities with transfer points in sequence, 
 
 For example:
 Given the string of flights below: 
-flights  =  “””
+flights  =
+```
 NY -> Iceland -> London -> Berlin
 NY -> Maine -> London
 Berlin -> Paris -> Amsterdam
 Paris -> London -> Egypt
-“””
+```
 The first line in the above string represents transfer points from NY (origin) to Berlin (destination), and the second line from Berlin to Amsterdam and so on. 
 
 If we provide the flights, ‘NY’ and ‘Egypt’ as the parameters to the function, it should return a list of lists of the shortest paths from the NY (origin) to Egypt (destination) as listed below : 
